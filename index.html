@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Tracker Sheet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>DSA Tracker</h1>
+            <ul>
+                <li><a href="#arrays"><i class="fas fa-square-full"></i> Arrays</a></li>
+                <li><a href="#linked-lists"><i class="fas fa-link"></i> Linked Lists</a></li>
+                <li><a href="#trees"><i class="fas fa-tree"></i> Trees</a></li>
+                <li><a href="#graphs"><i class="fas fa-project-diagram"></i> Graphs</a></li>
+                <li><a href="#dynamic-programming"><i class="fas fa-stream"></i> Dynamic Programming</a></li>
+                <li><a href="#backtracking"><i class="fas fa-reply"></i> Backtracking</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="section" id="arrays">
+                <h2>Arrays</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Two Sum</td>
+                            <td><input type="checkbox" id="arrays-1"></td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Subarray</td>
+                            <td><input type="checkbox" id="arrays-2"></td>
+                        </tr>
+                        <!-- Add more topics as needed -->
+                    </tbody>
+                </table>
+                <form id="arrays-form">
+                    <input type="text" id="arrays-new-topic" placeholder="New Topic">
+                    <button type="submit">Add</button>
+                </form>
+                <textarea id="arrays-notes" placeholder="Notes..."></textarea>
+            </div>
+            <div class="section" id="linked-lists">
+                <h2>Linked Lists</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Reverse Linked List</td>
+                            <td><input type="checkbox" id="linked-lists-1"></td>
+                        </tr>
+                        <tr>
+                            <td>Detect Cycle in Linked List</td>
+                            <td><input type="checkbox" id="linked-lists-2"></td>
+                        </tr>
+                        <!-- Add more topics as needed -->
+                    </tbody>
+                </table>
+                <form id="linked-lists-form">
+                    <input type="text" id="linked-lists-new-topic" placeholder="New Topic">
+                    <button type="submit">Add</button>
+                </form>
+                <textarea id="linked-lists-notes" placeholder="Notes..."></textarea>
+            </div>
+            <div class="section" id="trees">
+                <h2>Trees</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Binary Tree Inorder Traversal</td>
+                            <td><input type="checkbox" id="trees-1"></td>
+                        </tr>
+                        <tr>
+                            <td>Validate Binary Search Tree</td>
+                            <td><input type="checkbox" id="trees-2"></td>
+                        </tr>
+                        <!-- Add more topics as needed -->
+                    </tbody>
+                </table>
+                <form id="trees-form">
+                    <input type="text" id="trees-new-topic" placeholder="New Topic">
+                    <button type="submit">Add</button>
+                </form>
+                <textarea id="trees-notes" placeholder="Notes..."></textarea>
+            </div>
+            <div class="section" id="graphs">
+                <h2>Graphs</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Depth First Search</td>
+                            <td><input type="checkbox" id="graphs-1"></td>
+                        </tr>
+                        <tr>
+                            <td>Breadth First Search</td>
+                            <td><input type="checkbox" id="graphs-2"></td>
+                        </tr>
+                        <!-- Add more topics as needed -->
+                    </tbody>
+                </table>
+                <form id="graphs-form">
+                    <input type="text" id="graphs-new-topic" placeholder="New Topic">
+                    <button type="submit">Add</button>
+                </form>
+                <textarea id="graphs-notes" placeholder="Notes..."></textarea>
+            </div>
+            <div class="section" id="dynamic-programming">
+                <h2>Dynamic Programming</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Longest Increasing Subsequence</td>
+                            <td><input type="checkbox" id="dynamic-programming-1"></td>
+                        </tr>
+                        <tr>
+                            <td>Coin Change</td>
+                            <td><input type="checkbox" id="dynamic-programming-2"></td>
+                        </tr>
+                        <!-- Add more topics as needed -->
+                    </tbody>
+                </table>
+                <form id="dynamic-programming-form">
+                    <input type="text" id="dynamic-programming-new-topic" placeholder="New Topic">
+                    <button type="submit">Add</button>
+                </form>
+                <textarea id="dynamic-programming-notes" placeholder="Notes..."></textarea>
+            </div>
+            <div class="section" id="backtracking">
+                <h2>Backtracking</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>N-Queens</td>
+                            <td><input type="checkbox" id="backtracking-1"></td>
+                        </tr>
+                        <tr>
+                            <td>Sudoku Solver</td>
+                            <td><input type="checkbox" id="backtracking-2"></td>
+                        </tr>
+                        <!-- Add more topics as needed -->
+                    </tbody>
+                </table>
+                <form id="backtracking-form">
+                    <input type="text" id="backtracking-new-topic" placeholder="New Topic">
+                    <button type="submit">Add</button>
+                </form>
+                <textarea id="backtracking-notes" placeholder="Notes..."></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
